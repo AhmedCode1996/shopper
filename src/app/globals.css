@@ -1,0 +1,82 @@
+:root {
+  --green-color: #07bfa5;
+  --yellow-color: #ffbd59;
+  --orange-color: #ff914d;
+  --red-color: #ff6264;
+  --dark-color: #01221d;
+  --pink-color: #f5b3a5;
+  --black-color: #01040d;
+  --darkGrey-color: #8991a4;
+  --lightGrey-color: #f4f5f6;
+  --softGrey-color: #c4c7d1;
+  --white-color: #ffffff;
+  --border-color: #dcdee4;
+  --search-input-color: #4A615E;
+
+  --xs: calc(12rem / 16);
+  --sm: calc(14rem / 16);
+  --base: calc(16rem / 16);
+  --lg: calc(18rem / 16);
+  --xl: calc(22rem / 16);
+  --xl2: calc(24rem / 16);
+  --xl3: calc(28rem / 16);
+  --xl4: calc(32rem / 16);
+  --xl5: calc(40rem / 16);
+  --xl6: calc(48rem / 16);
+  --xl7: calc(56rem / 16);
+
+  --border-radius: 16px;
+}
+
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+select {
+  font: inherit;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

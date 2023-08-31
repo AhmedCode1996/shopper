@@ -1,0 +1,40 @@
+.wrapper {
+  background-color: var(--dark-color);
+}
+
+.headerNav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navList li:nth-of-type(2) {
+  flex-basis: 50%;
+  position: relative;
+}
+.navList li:nth-of-type(2) .inputImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(1rem, 0.75rem);
+}
+.navList li:nth-of-type(2) input {
+  width: 100%;
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 3rem;
+  border: 1px solid var(--search-input-color);
+  border-radius: 16px;
+}
+
+.navList li:nth-of-type(2) input:placeholder-shown {
+  color: white;
+}
+
+.navList li:last-child button {
+  padding: 0.5rem 1.5rem;
+  color: var(--white-color);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--white-color);
+  font-weight: bold;
+  text-transform: capitalize;
+}

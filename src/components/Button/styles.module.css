@@ -1,0 +1,17 @@
+.wrapper {
+  border-radius: 16px;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.wrapper.logIn {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  transition: all 0.25s;
+}
+
+.wrapper.create {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  transition: all 0.25s;
+}

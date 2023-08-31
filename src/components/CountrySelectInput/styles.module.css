@@ -1,0 +1,10 @@
+.wrapper {
+  border-radius: var(--border-radius);
+  padding: 0.75rem 1rem 0.75rem 3rem;
+  border: 1px solid #dcdee4;
+  width: 100%;
+}
+.option {
+  color: black;
+  text-align: left;
+}

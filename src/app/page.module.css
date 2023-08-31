@@ -1,0 +1,26 @@
+.main {
+  padding: 2rem;
+  height: 100dvh;
+  display: flex;
+  place-content: center;
+}
+
+.wrapper > * + * {
+  margin-top: 1rem;
+}
+
+.main .wrapper img {
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.main .buttonsGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.buttonsGroup > * {
+  width: 60%;
+  margin-inline: auto;
+}

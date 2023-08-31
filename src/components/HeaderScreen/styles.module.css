@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.wrapper h2 {
+  font-size: var(--xl6);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.wrapper h2 span:last-child {
+  color: var(--green-color);
+  transition: color 0.2s;
+}
+.wrapper h2 span:first-child {
+  color: var(--black);
+  transition: color 0.2s;
+}
+.wrapper h2:hover span:first-child {
+  color: var(--green-color);
+}
+.wrapper h2:hover span:last-child {
+  color: var(--black);
+}
+
+.wrapper p {
+  font-size: var(--sm);
+  color: var(--darkGrey-color);
+  max-width: 40ch;
+  margin-inline: auto;
+  text-align: center;
+  line-height: 1.5;
+}
